@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
+import Login from "../components/pages/auth/login/Login";
+import "../assets/css/style.css"
 
-function app() {
-    return (
-        <div>
-            Hello World
-
-            <h1>This is A2Z Client site :3</h1>
-        </div>
-    )
+function App() {
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
 
-export default app
+export default App;
