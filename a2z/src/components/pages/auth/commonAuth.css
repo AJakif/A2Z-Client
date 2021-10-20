@@ -5,25 +5,14 @@ body{
     display: flex;
 }
 .purplecard{
-    background-image: linear-gradient(35deg, #00AAFF , #b0dbf3);
+    background-image: linear-gradient(35deg, #6F01B0 , #B684FF);
     width: 50vw;
     height: 100vh;
 }
 
 .whitecard{
-    box-shadow: inset 3px 0px 5px #a09c9c;
+    
     background-color: #fcfcfc;
     width: 50vw;
     height: 100vh;
-}
-
-.whitecard .roundtitle{
-    box-shadow: inset 3px 0px 5px #a09c9c;
-    background-image: linear-gradient(35deg, #00AAFF , #99d2f1);
-    padding: 1rem 4rem;
-    display: inline-block;
-    border-radius:0px 50px 50px 0px ;
-    margin-top: 25px;
-    font-size: 1.2rem;
-    color: white;
 }
