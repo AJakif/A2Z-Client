@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app/App'
-import 'antd/dist/antd.css';
+import App from './app/App';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
